@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Custom Software Solution | Python Automation & Data Cleanup</title>
+  <style>
+    :root {
+      --bg: #061019;
+      --panel: #0b1c27;
+      --panel-2: #0e2432;
+      --border: #17445a;
+      --text: #d8f8ff;
+      --muted: #78aebe;
+      --green: #00ff88;
+      --orange: #ff8a3d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: radial-gradient(circle at 20% 0%, #0b2a38 0%, var(--bg) 45%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--green); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { width: min(1100px, 92%); margin: 0 auto; }
+    header { padding: 28px 0 10px; border-bottom: 1px solid var(--border); }
+    .brand { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .brand h1 { font-size: 1.05rem; letter-spacing: .16em; text-transform: uppercase; margin: 0; }
+    .brand span { color: var(--muted); font-size: .85rem; }
+    .hero { padding: 70px 0 46px; max-width: 820px; }
+    .eyebrow { color: var(--orange); font-weight: 700; letter-spacing: .18em; text-transform: uppercase; font-size: .78rem; }
+    .hero h2 { font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1.08; margin: 12px 0 18px; }
+    .hero p { color: var(--muted); font-size: 1.08rem; max-width: 680px; }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 26px; }
+    .btn {
+      display: inline-block; padding: 12px 20px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--panel-2); color: var(--text); font-weight: 600;
+    }
+    .btn.primary { background: var(--green); border-color: var(--green); color: #02140b; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; }
+    section { padding: 34px 0; }
+    h3 { font-size: 1.35rem; margin: 0 0 6px; }
+    .muted { color: var(--muted); }
+    .card {
+      background: linear-gradient(180deg, var(--panel-2), var(--panel));
+      border: 1px solid var(--border); border-radius: 14px; padding: 22px;
+    }
+    .card img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--border); margin-top: 14px; }
+    .tag { display: inline-block; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--green); border: 1px solid var(--border); border-radius: 999px; padding: 4px 9px; margin-bottom: 10px; }
+    .price { color: var(--orange); font-weight: 700; font-size: 1.25rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 14px; }
+    th, td { text-align: left; padding: 11px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    th { color: var(--muted); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; }
+    .stat { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px dashed var(--border); }
+    .stat:last-child { border-bottom: 0; }
+    .stat b { color: var(--green); }
+    footer { border-top: 1px solid var(--border); padding: 26px 0 40px; color: var(--muted); font-size: .9rem; }
+    .note { font-size: .82rem; color: var(--muted); margin-top: 12px; }
+    @media (max-width: 640px) {
+      .hero { padding-top: 44px; }
+      th, td { padding: 9px 6px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap brand">
+      <h1>Custom Software Solution</h1>
+      <span>Python automation & data cleanup</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Portfolio</div>
+      <h2>Clean data. Automate the repetitive work. Get a usable report.</h2>
+      <p>
+        I build small Python tools for small businesses and busy teams: cleaning messy
+        CSV and Excel files, automating recurring reports and delivering a short,
+        readable summary of what changed.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="mailto:muhammadkamilukamil@gmail.com?subject=Python%20automation%20project">Start a project</a>
+        <a class="btn" href="https://github.com/kamilmuhammad-dev/software-solution">View the code</a>
+      </div>
+      <p class="note">Portfolio samples use synthetic data. They show the workflow, not client results.</p>
+    </section>
+
+    <section>
+      <h3>Sample projects</h3>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">Data cleanup</span>
+          <h3>Messy sales export to clean workbook</h3>
+          <p class="muted">Deduplicate, normalize dates and numbers, validate emails and produce an Excel file with a quality summary.</p>
+          <div class="stat"><span>Rows before</span><b>344</b></div>
+          <div class="stat"><span>Rows after</span><b>320</b></div>
+          <div class="stat"><span>Duplicates removed</span><b>24</b></div>
+          <div class="stat"><span>Issues flagged</span><b>137</b></div>
+          <img src="assets/cleanup_quality.png" alt="Chart of data quality issues found in the sample">
+          <p><a href="data-cleanup/output/clean_sales.xlsx">Download the clean workbook</a></p>
+          <p><a href="data-cleanup/CASE_STUDY.md">Read the case study</a></p>
+        </article>
+
+        <article class="card">
+          <span class="tag">Automation</span>
+          <h3>Monthly sales report in one command</h3>
+          <p class="muted">Combine monthly CSV exports, remove duplicates, exclude incomplete rows and build a formatted Excel report.</p>
+          <div class="stat"><span>Files consolidated</span><b>3</b></div>
+          <div class="stat"><span>Clean rows used</span><b>246</b></div>
+          <div class="stat"><span>Total revenue</span><b>USD 75,304.57</b></div>
+          <div class="stat"><span>Best month</span><b>2026-01</b></div>
+          <img src="assets/report_revenue_by_month.png" alt="Chart of revenue by month">
+          <p><a href="report-automation/output/sales_report.xlsx">Download the Excel report</a></p>
+          <p><a href="report-automation/CASE_STUDY.md">Read the case study</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h3>Packages</h3>
+      <div class="card">
+        <table>
+          <thead>
+            <tr><th>Package</th><th>Price</th><th>Scope</th><th>Turnaround</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Data Cleanup</strong></td><td class="price">USD 49</td><td>Up to 1,000 rows, dedupe, normalize, validate, one-page summary.</td><td>2 days</td></tr>
+            <tr><td><strong>Python Automation</strong></td><td class="price">USD 99</td><td>One workflow, working script, README, one revision and handover.</td><td>3 days</td></tr>
+            <tr><td><strong>Cleanup + Automation</strong></td><td class="price">USD 199</td><td>Both plus a short before/after report and one revision.</td><td>4 days</td></tr>
+          </tbody>
+        </table>
+        <p class="note">Hourly floor: USD 20/hr. Larger files or extra workflows are quoted before work begins.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>How it works</h3>
+      <div class="grid">
+        <div class="card">
+          <span class="tag">1. Send a sample</span>
+          <p class="muted">Share the file or describe the repeated workflow. I confirm the output, price and delivery date.</p>
+        </div>
+        <div class="card">
+          <span class="tag">2. Review the result</span>
+          <p class="muted">You receive the clean files, script or report, plus a short summary of the changes.</p>
+        </div>
+        <div class="card">
+          <span class="tag">3. Handover</span>
+          <p class="muted">One revision round and a short walkthrough so you can rerun the work yourself.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>Custom Software Solution</strong> - Kamil Muhammad</p>
+      <p><a href="mailto:muhammadkamilukamil@gmail.com">muhammadkamilukamil@gmail.com</a> | +2349129250475</p>
+      <p><a href="https://github.com/kamilmuhammad-dev/software-solution">github.com/kamilmuhammad-dev/software-solution</a></p>
+    </div>
+  </footer>
+</body>
+</html>

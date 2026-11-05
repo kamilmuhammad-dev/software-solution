@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+Thumbs.db
+.DS_Store
+marketing/
+.env
+.env.*
+secrets.*
+*.key
+*.pem
+*.pfx
+*.p12
+.git-credentials

@@ -1,0 +1,95 @@
+date,product,region,channel,customer_type,units,unit_price
+2026-01-03,Monthly Report,Lagos,marketplace,agency,,
+2026-01-26,Data Cleanup,Lagos,referral,agency,3,127.92
+2026-01-23,Analytics Setup,Accra,social,freelancer,2,116.79
+2026-01-27,Analytics Setup,Accra,referral,e-commerce,2,90.64
+2026-01-15,Data Cleanup,Abuja,referral,freelancer,1,143.78
+2026-01-15,Monthly Report,Abuja,social,freelancer,3,175.77
+2026-01-07,Analytics Setup,Nairobi,marketplace,freelancer,1,172.46
+2026-01-26,Analytics Setup,Remote,marketplace,freelancer,2,165.41
+2026-01-07,Analytics Setup,Accra,referral,freelancer,2,136.52
+2026-01-22,Automation Sprint,Remote,social,small business,1,63.53
+2026-01-08,Data Cleanup,Lagos,referral,e-commerce,4,151.86
+2026-01-05,Monthly Report,Nairobi,direct,e-commerce,4,162.47
+2026-01-05,Monthly Report,Remote,social,agency,4,33.00
+2026-01-02,Automation Sprint,Lagos,social,freelancer,3,152.96
+2026-01-24,Dashboard Build,Remote,referral,e-commerce,2,78.09
+2026-01-16,Data Cleanup,Remote,referral,agency,1,200.27
+2026-01-11,Monthly Report,Remote,referral,e-commerce,1,163.60
+2026-01-11,Data Cleanup,Accra,referral,small business,2,152.26
+2026-01-20,Dashboard Build,Abuja,referral,freelancer,3,57.90
+2026-01-01,Analytics Setup,Nairobi,social,small business,2,172.94
+2026-01-04,Dashboard Build,Remote,referral,e-commerce,2,66.72
+2026-01-11,Dashboard Build,Abuja,social,freelancer,,147.12
+2026-01-10,Analytics Setup,Abuja,direct,agency,3,174.36
+2026-01-11,Data Cleanup,Nairobi,referral,e-commerce,4,131.60
+2026-01-19,Automation Sprint,Nairobi,social,e-commerce,4,206.67
+2026-01-17,Monthly Report,Abuja,referral,agency,4,55.29
+2026-01-26,Analytics Setup,Accra,referral,freelancer,1,61.65
+2026-01-11,Analytics Setup,Nairobi,referral,agency,2,
+2026-01-16,Data Cleanup,Nairobi,social,e-commerce,2,67.66
+2026-01-10,Monthly Report,Remote,direct,freelancer,2,57.91
+2026-01-12,Analytics Setup,Abuja,social,small business,2,90.54
+2026-01-03,Automation Sprint,Remote,referral,e-commerce,2,29.20
+2026-01-25,Automation Sprint,Abuja,marketplace,agency,3,48.38
+2026-01-08,Data Cleanup,Accra,direct,agency,4,123.41
+2026-01-10,Monthly Report,Nairobi,direct,freelancer,1,195.10
+2026-01-21,Data Cleanup,Lagos,marketplace,e-commerce,2,46.12
+2026-01-28,Automation Sprint,Abuja,referral,freelancer,3,100.89
+2026-01-24,Data Cleanup,Lagos,referral,agency,3,78.12
+2026-01-01,Analytics Setup,Accra,marketplace,freelancer,4,207.74
+2026-01-13,Dashboard Build,Nairobi,social,freelancer,4,146.64
+2026-01-10,Data Cleanup,Lagos,social,freelancer,1,45.40
+2026-01-05,Data Cleanup,Lagos,marketplace,freelancer,3,33.97
+2026-01-02,Data Cleanup,Accra,marketplace,small business,,157.19
+2026-01-12,Dashboard Build,Abuja,social,freelancer,4,211.01
+2026-01-19,Dashboard Build,Remote,marketplace,agency,1,89.42
+2026-01-11,Dashboard Build,Abuja,direct,e-commerce,2,54.72
+2026-01-05,Data Cleanup,Remote,social,e-commerce,2,129.14
+2026-01-22,Automation Sprint,Abuja,referral,e-commerce,4,143.52
+2026-01-12,Monthly Report,Nairobi,direct,small business,3,135.01
+2026-01-03,Dashboard Build,Accra,direct,e-commerce,1,136.24
+2026-01-25,Monthly Report,Lagos,marketplace,agency,4,117.64
+2026-01-17,Monthly Report,Lagos,marketplace,e-commerce,2,194.72
+2026-01-08,Automation Sprint,Nairobi,direct,agency,4,209.75
+2026-01-25,Data Cleanup,Abuja,social,small business,4,159.85
+2026-01-13,Automation Sprint,Nairobi,social,freelancer,2,
+2026-01-22,Data Cleanup,Remote,referral,agency,3,191.11
+2026-01-17,Automation Sprint,Abuja,marketplace,e-commerce,4,198.56
+2026-01-25,Monthly Report,Lagos,social,freelancer,1,156.72
+2026-01-12,Analytics Setup,Remote,marketplace,small business,2,183.42
+2026-01-27,Automation Sprint,Accra,social,small business,2,215.00
+2026-01-16,Monthly Report,Remote,referral,freelancer,4,59.94
+2026-01-01,Monthly Report,Lagos,social,small business,3,176.77
+2026-01-26,Analytics Setup,Nairobi,direct,freelancer,3,170.56
+2026-01-18,Data Cleanup,Accra,referral,agency,,115.56
+2026-01-08,Monthly Report,Nairobi,marketplace,e-commerce,4,97.08
+2026-01-01,Analytics Setup,Nairobi,direct,agency,2,183.03
+2026-01-23,Data Cleanup,Lagos,referral,small business,2,31.90
+2026-01-28,Analytics Setup,Accra,referral,e-commerce,4,125.53
+2026-01-07,Analytics Setup,Nairobi,direct,agency,4,186.27
+2026-01-08,Analytics Setup,Lagos,social,small business,2,215.41
+2026-01-02,Analytics Setup,Lagos,social,e-commerce,2,94.84
+2026-01-02,Data Cleanup,Abuja,referral,agency,4,49.43
+2026-01-03,Analytics Setup,Remote,referral,freelancer,2,107.89
+2026-01-24,Automation Sprint,Accra,direct,agency,3,151.34
+2026-01-27,Automation Sprint,Accra,direct,e-commerce,4,207.37
+2026-01-23,Automation Sprint,Accra,direct,agency,1,144.25
+2026-01-14,Automation Sprint,Abuja,referral,e-commerce,3,203.81
+2026-01-28,Dashboard Build,Lagos,direct,e-commerce,3,133.62
+2026-01-02,Automation Sprint,Lagos,marketplace,small business,4,88.52
+2026-01-12,Analytics Setup,Abuja,marketplace,freelancer,1,111.26
+2026-01-12,Analytics Setup,Accra,direct,freelancer,3,34.46
+2026-01-21,Automation Sprint,Abuja,direct,e-commerce,3,
+2026-01-25,Monthly Report,Remote,referral,e-commerce,4,58.44
+2026-01-15,Automation Sprint,Accra,direct,e-commerce,2,211.60
+2026-01-20,Automation Sprint,Remote,social,small business,,122.78
+2026-01-24,Data Cleanup,Lagos,social,small business,2,62.57
+2026-01-09,Monthly Report,Remote,marketplace,freelancer,2,189.12
+2026-01-09,Automation Sprint,Nairobi,direct,freelancer,2,168.96
+2026-01-18,Monthly Report,Abuja,direct,agency,2,219.24
+2026-01-02,Monthly Report,Nairobi,marketplace,freelancer,1,62.46
+2026-01-01,Analytics Setup,Nairobi,direct,agency,2,183.03
+2026-01-03,Automation Sprint,Remote,referral,e-commerce,2,29.20
+2026-01-12,Analytics Setup,Accra,direct,freelancer,3,34.46
+2026-01-12,Monthly Report,Nairobi,direct,small business,3,135.01
