@@ -32,9 +32,9 @@ Consolidate monthly CSV exports into one formatted Excel report with monthly, re
 
 | Package | Price | Scope |
 |---|---|---|
-| Data Cleanup | USD 49 | Up to 1,000 rows, dedupe, normalize, validate, summary |
-| Python Automation | USD 99 | One workflow, script, README, one revision, handover |
-| Cleanup + Automation | USD 199 | Both plus a short before/after report |
+| Data Cleanup | USD 45 | Up to 1,000 rows, dedupe, normalize, validate, summary |
+| Python Automation | USD 95 | One workflow, script, README, one revision, handover |
+| Cleanup + Automation | USD 195 | Both plus a short before/after report |
 
 Hourly floor: USD 20/hr. Turnaround is about 2-4 days for small projects.
 
